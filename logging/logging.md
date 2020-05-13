@@ -1,4 +1,4 @@
-#### Efficient and easy to use logging
+## Efficient and easy to use logging
 
 Here I found out several competitors: stdlib, logrus, go-kit, log15, zap, zero logger and others.
 What I expect of of a logger is

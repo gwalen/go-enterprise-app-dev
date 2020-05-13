@@ -1,5 +1,4 @@
-
-#### Reactive programming libraries and streaming data
+## Reactive programming libraries and streaming data
 
 _This is part is under evaluation._
 

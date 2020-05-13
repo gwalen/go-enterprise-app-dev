@@ -21,7 +21,7 @@ Assumption is we are building a system with microservice architecture, web UI, d
 ### &nbsp; [1. Web framework to efficiently build rest-api](http/http.md)
 
 ### &nbsp; 2. DB access [one TODO left - sontext switching]
- * [RDBMS](db/db_rdbms.md)
+ * [RDBMS](db_access/db_rdbms.md)
  * NoSql **TBD**
 
 ### &nbsp; [3. Efficient and easy to use logging](logging/logging.md)

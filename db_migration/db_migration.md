@@ -1,4 +1,4 @@
-#### Db migration tools
+## Db migration tools
 
 Go has very useful package for performing continuous migrations : [golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 
@@ -33,7 +33,8 @@ It supports bunch of databases:
 * ClickHouse
 * Firebird
 * MS SQL Server
-* 
+
+
 #### Conclusion
 
 Mature tool to run your migrations.

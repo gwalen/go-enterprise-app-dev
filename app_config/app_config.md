@@ -1,4 +1,4 @@
-#### Configure app using file or environment variables
+## Configure app using file or environment variables
 
 Go has multiple packages that allow reading configuration from file or environment variables.
 

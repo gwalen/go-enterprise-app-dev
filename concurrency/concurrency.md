@@ -1,4 +1,4 @@
-#### Concurrency as first class citizen
+## Concurrency as first class citizen
 
 Goroutines are core of concurrency in Go. Goroutines are like light weight treads (? READM more).
 They don't map one to one to os threads. There can be thousands of go routines (they cost couple KB on stack - how much exactly ?)
