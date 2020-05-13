@@ -5,7 +5,7 @@ Most common pattern is to pass an error value (or nil if operation was successfu
 You can create own type of errors, struct just new to implement error interface.
 This is all when you use standard _"errors"_ package.
 
-This most basic error definition you must implement:
+This most basic error definition error must implement:
 ```
 type error interface {
     Error() string

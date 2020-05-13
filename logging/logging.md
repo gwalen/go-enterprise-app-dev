@@ -27,6 +27,9 @@ I allows structured json logging, pretty console logging.
 
 Docs are far from perfect. There is a godoc but not enough examples.
 
+###### Code samples:
+* [logger creation and simple facade](https://github.com/gwalen/bettertomorrow/blob/master/common/logger/logger_zap.go)
+
 #### [Zero logger](https://github.com/rs/zerolog)
 
 Based on similar idea as Zap, also blazing fast.
@@ -35,10 +38,10 @@ Great thing is that logging error stack trace is quite intuitive which I find a 
 
 Documentation as lot of examples which makes it using zero logger much easier.
 
+###### Code samples:
+* [logger creation and simple facade](https://github.com/gwalen/bettertomorrow/blob/master/common/logger/logger_zero.go)
 
 #### Conclusion
 
 Go has a wide variety of logger libraries to choose from, which are enterprise ready.
 My personal favorite logger is zero thanks to docs and easy to use api, and ofc its speed.
-
-TODO >> add image with hwo fas loggers are.

@@ -15,10 +15,10 @@ What key points I would expect from decent db access library:
 
 - ~~thread pool (so we don't starve application on long running db queries)~~
 
->>TODO (verify)
-Last strike through point is for people coming from JVM world. In GO you don't need to crate separate thread pools because go-routine are not mapped to system threads, thy are cheap and light weight. You can have ten of thousands (??) of them. Context switching is not that expensive (???)
 
-> ???  To keep you application rective you can not let it happen to stop responding in UI. So idea is not to block on critical paths and let blocking operations run in separate thread pools. In GO you will not block as you can create go-routines in a almost infivitve amount so it like in old spring (or any other web framework form old times) where each new http request was handeled by new thread - here is done by new go routine but you will not kill the memory or downgrade pefromance of you application.
+>>Last strike through point is for people coming from JVM world. In GO you don't need to crate separate thread pools because go-routine are not mapped to system threads, thy are cheap and light weight. You can have thousands of them.
+
+
 
 
 Among many I have chosen most popular ones and which I found to be most recommended (from my perspective)
@@ -48,6 +48,9 @@ Also mapping of plain queries is not good documented and therefore not easy to u
 
 But they is [V2 version](https://github.com/jinzhu/gorm/issues/2886) coming so maybe GORM will become a leader like Hibernate in Java world.
 
+
+* [crud and simple join](https://github.com/gwalen/bettertomorrow/tree/master/context/company/persistance)
+
 ##### 2. XORM
 
 - [x] (5/10) good documentation
@@ -66,9 +69,12 @@ So has ORM capabilities mixed with useful features for mapping plain queries.
 
 Unfortunately the documentation does not have enough examples and you have to look for solutions in blogs or in stack overflow.
 
+###### Code samples:
+* [crud and simple join](https://github.com/gwalen/bettertomorrow/tree/master/context/customer/persistance)
+
 ###### Useful links:
 
-* [xorm github]https://github.com/go-xorm/xorm)
+* [xorm github](https://github.com/go-xorm/xorm)
 * [xorm gobook](http://gobook.io/read/gitea.com/xorm/manual-en-US/)
 * [xorm sql builer](https://gitea.com/xorm/builder)
 
@@ -91,6 +97,8 @@ But its super annoying (lot of boiler plate) when doing join and you must alias 
 
 It's a good choice when you don't want full ORM engine and its problems, but be prepared to write lot of boiler plate code.
 
+###### Code samples:
+* [crud and simple join](https://github.com/gwalen/bettertomorrow/tree/master/context/employee/persistance)
 
 #### Conclusion
 This are just a few I tried to briefly evaluate. Go has many options for ORM style and plain sql libs to access database. For me none of them seems full future/documentation complete but definitely you can get a job done and write efficient code with some extra code to cover edge cases.

@@ -13,6 +13,10 @@ It also allows watching live changes in that files during application lifetime.
 
 For full set of capabilities please read the Github web page.
 
+##### Code samples:
+* [configuration initialization](https://github.com/gwalen/bettertomorrow/blob/master/common/configuration/config.go)
+* [configuration usage for database setup](https://github.com/gwalen/bettertomorrow/blob/master/common/dbxorm/db.go)
+
 #### Conclusion
 
 There are tools that are easy to use and powerful to cope with this task.
