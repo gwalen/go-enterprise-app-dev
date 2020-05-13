@@ -1,4 +1,4 @@
-#### 1. Web framework to efficiently build rest-api
+### 1. Web framework to efficiently build rest-api
 
 There are a lot of web frameworks written in Go and many of them has really good docs, essential functionalities and have good reviews among users.
 
@@ -6,9 +6,9 @@ Here is quite useful page with list of frameworks with git data as number of com
 
 top 3 (as of 02-05-2020) are :
 
-1. Gin
-2. Beego
-3. Echo
+1. [Gin](https://github.com/gin-gonic/gin)
+2. [Beego](https://beego.me/)
+3. [Echo](https://github.com/labstack/echo)
 
 In my pet project I used **Echo**. It has great documentation, easy to use api and bunch of useful features. Including: json parsing, JWT, CORS, file serving, data streaming, WebSockets, HTTP/2.
 
