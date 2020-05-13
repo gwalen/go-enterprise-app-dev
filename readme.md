@@ -26,21 +26,21 @@ Assumption is we are building a system with microservice architecture, web UI, d
 
 ### &nbsp; [3. Efficient and easy to use logging](logging/logging.md)
 
-### &nbsp; [5. Clear way for DI](di/di.md)
+### &nbsp; [4. Clear way for DI](di/di.md)
 
-### &nbsp; [6. Reactive programming libraries (streaming data)](reactivex/reactivex.md)
+### &nbsp; [5. Reactive programming libraries (streaming data)](reactivex/reactivex.md)
 
-### &nbsp; [7. Clear error handling](error_handling/errors.md)
+### &nbsp; [6. Clear error handling](error_handling/errors.md)
 
-### &nbsp; [8. Concurrency as first class citizen](concurrency/concurrency.md) (TODO: go routing size on stack)
+### &nbsp; [7. Concurrency as first class citizen](concurrency/concurrency.md) (TODO: go routing size on stack)
 
-### &nbsp; [10. Code debugging and profiling](debugging_profiling/debugging_profiling.md)
+### &nbsp; [8. Code debugging and profiling](debugging_profiling/debugging_profiling.md)
 
-### &nbsp; 11. Testability [TBD]
+### &nbsp; 9. Testability [TBD]
 
-### &nbsp; 4. Communication with message brokers [TBD]
+### &nbsp; 10. Communication with message brokers [TBD]
 
-### &nbsp; 12. IDE support [TBD]
+### &nbsp; 11. IDE support [TBD]
 
 #### _Less essential but nice to have :_
 

@@ -1,4 +1,4 @@
-### 1. Web framework to efficiently build rest-api
+## Web framework to efficiently build rest-api
 
 There are a lot of web frameworks written in Go and many of them has really good docs, essential functionalities and have good reviews among users.
 

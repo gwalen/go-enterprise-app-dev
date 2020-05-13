@@ -1,4 +1,4 @@
-#### Clear error handling
+## Clear error handling
 
 In Go errors are values. There is no concept of exception (although there are panic/recover functions about which I will write later).
 Most common pattern is to pass an error value (or nil if operation was successful) to the caller function. Than you either log it and handle as you need to propagate up in the call stack again with return statement. Errors can wrap other errors, so you can add extra info to given error value.
