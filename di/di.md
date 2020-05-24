@@ -1,4 +1,4 @@
-## 5. Clear way for DI
+## Clear way for DI
 
 Go has 3 major libs to perform DI
 

@@ -36,11 +36,11 @@ Assumption is we are building a system with microservice architecture, web UI, d
 
 ### &nbsp; [8. Code debugging and profiling](debugging_profiling/debugging_profiling.md)
 
-### &nbsp; 9. Testability [TBD]
+### &nbsp; [9. Testability](testing/testing.md)
 
-### &nbsp; 10. Communication with message brokers [TBD]
+### &nbsp; 10. Communication with message brokers **TBD**
 
-### &nbsp; 11. IDE support [TBD]
+### &nbsp; 11. [IDE support](ide/ide.md)
 
 #### _Less essential but nice to have :_
 
