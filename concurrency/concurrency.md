@@ -12,7 +12,7 @@ This is a powerful abstraction that allows building efficient concurrent data fl
 
 Writing and reading from a channel is blocking. Which can create deadlocks (luckily go has tools to detect them).
 When Go routines panic, error will not be returned in the parent Go routine but it will crash the application. So you have to create workarounds that will wrap the go routine invocation and allow recovery from the error ([gh link](https://github.com/golang/go/issues/20161)) without crashing the whole application.
-You also have to watch for go routines than could became zombie when they are waiting for data on the channel to which nobody is writing anymore (ex.: writing Go routine had an error)
+You also have to watch for go routines that could became zombie when they are waiting for data on the channel to which nobody is writing anymore (ex.: Go routine writing to channel had an error)
 
 ###### Code samples :
 * [worker pool implementation](https://github.com/gwalen/bettertomorrow/tree/master/common/util/concurrency/worker_pool.go)
@@ -27,4 +27,4 @@ You also have to watch for go routines than could became zombie when they are wa
 
 #### Conclusion
 
-Go definitely has mad concurrency a first class citizen. It's different model in other languages and everybody should take a look at it.
+Go definitely has made concurrency a first class citizen. It's different model than in other languages and everybody should take a look at it.

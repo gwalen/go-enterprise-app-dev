@@ -1,8 +1,8 @@
 ## Web framework to efficiently build rest-api
 
-There are a lot of web frameworks written in Go and many of them has really good docs, essential functionalities and have good reviews among users.
+There are a lot of web frameworks written in Go and many of them has proper documentation, essential functionalities and good reviews among users.
 
-Here is quite useful page with list of frameworks with git data as number of commits stars etc. [gh link](https://github.com/mingrammer/go-web-framework-stars)
+Here is quite useful page with list of frameworks sorted by number of stars on git : [gh link](https://github.com/mingrammer/go-web-framework-stars)
 
 top 3 (as of 02-05-2020) are :
 

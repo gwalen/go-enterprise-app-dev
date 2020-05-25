@@ -13,7 +13,7 @@ GitHub repo for the project: [bettertomorrow](https://github.com/gwalen/betterto
 
 ## What do we need when writing and enterpise web application
 
-Here is the list of fetures/tools one need jump straight in to writing business logic.
+Here is the list of fetures/tools one need to jump straight in to writing business logic.
 Assumption is we are building a system with microservice architecture, web UI, database (rdbms), message broker, with CI/CD pipe line all that deployed in the cloud. So nothing too fancy.
 
 #### _Must have libs or frameworks and language features for :_

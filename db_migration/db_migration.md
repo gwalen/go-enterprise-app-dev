@@ -2,7 +2,7 @@
 
 Go has very useful package for performing continuous migrations : [golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 
-It applies your migrations ordered by version and breaks on error. You can also define revert migration in case of an error (suffix `up` if for forward migration and `down` for revert).
+It applies your migrations ordered by version and breaks on error. You can also define revert migration in case of an error.
 Migrate package crates a small table `schema_migrations` in your db where it holds last applied migration and its result (success/fail).
 It has **good documentation**.
 
@@ -37,4 +37,4 @@ It supports bunch of databases:
 
 #### Conclusion
 
-Mature tool to run your migrations.
+Mature tool to run migrations.

@@ -16,8 +16,8 @@ Remote debugging is also possible.
 
 ###### Useful links
 * [installation for VSCode](https://github.com/Microsoft/vscode-go/wiki/Debugging-Go-code-using-VS-Code)
-* [manual installation](https://github.com/derekparker/delve/tree/master/Documentation/installation)
-* [debugging manual using VSCode](https://www.digitalocean.com/community/tutorials/debugging-go-code-with-visual-studio-code)
+* [installation instructions](https://github.com/derekparker/delve/tree/master/Documentation/installation)
+* [manual for debugging using VSCode](https://www.digitalocean.com/community/tutorials/debugging-go-code-with-visual-studio-code)
 * [remote debug configuration example](https://github.com/lukehoban/webapp-go/blob/debugging/.vscode/launch.json)
 
 ##### Profiling
