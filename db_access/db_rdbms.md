@@ -13,7 +13,7 @@ What key points I would expect from decent db access library:
 - connection pool
 
 
-- ~~thread pool (so we don't starve application on long running db queries)~~
+- ~~ separate thread pool (so we don't starve application on long running db queries)~~
 
 
 >Last strike through point is for people coming from JVM world. In GO you don't need to crate separate thread pools because go-routine are not mapped to system threads, they are cheap and light weight. You can have thousands of them.
@@ -43,7 +43,7 @@ Most popular ORM there is for GO, it has largest amount of stars on GH and is fr
 - [x] transactions
 - [x] connections pool
 
-**BUT** lot of people complain that when it comes to bit more complicated queries thay have to use plain SQL. For example when you are doing a join usign gorm dsl you need to call Preload() operation on the tables you want to join which under the hood is making new query to db (select * form sub_table), **multiple join will generate multiple queries**. This was raised as an issue [(link to gh issue)](https://github.com/jinzhu/gorm/issues/1436) and is forcing people to do manual queries with manual result mapping. 
+**BUT** lot of people complain that when it comes to bit more complicated queries thay have to use plain SQL. For example when you are doing a join usign gorm dsl you need to call Preload() operation on the tables you want to join which under the hood is making new query to db (select * form sub_table), **multiple join will generate multiple queries**. This was raised as an issue [(link to gh issue)](https://github.com/jinzhu/gorm/issues/1436) and is forcing people to do manual queries with manual result mapping.
 Unions are far from intuitive (for me at least).
 Also mapping of plain queries isn't well documented and therefore not easy to use.
 

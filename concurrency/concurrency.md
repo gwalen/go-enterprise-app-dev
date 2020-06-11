@@ -1,7 +1,7 @@
 ## Concurrency as first class citizen
 
-Goroutines are core of concurrency in Go. Goroutines are like light weight treads (? READM more).
-They don't map one to one to os threads. There can be thousands of go routines (they cost couple KB on stack - how much exactly ?)
+Goroutines are core of concurrency in Go. Goroutines are implemented as rich coroutines.
+They don't map one to one to OS threads. There can be thousands of go routines (each starts with own stack of 2 KB, which than is adjusted dynamically)
 
 When you create a Goroutine it is a independent concurrent process from its parent. You need a pipe to communicate between Goroutine which in go is called channel.
 Channels can be buffered or unbuffered.

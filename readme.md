@@ -18,9 +18,12 @@ Assumption is we are building a system with microservice architecture, web UI, d
 
 #### _Must have libs or frameworks and language features for :_
 
-### &nbsp; [1. Web framework to efficiently build rest-api](http/http.md)
+### &nbsp; 1. Efficiently build rest-api
+  * [Web framework](http/http.md)
+  * Generate rest-api documentation **TBD**
 
-### &nbsp; 2. DB access [one TODO left - sontext switching]
+
+### &nbsp; 2. DB access
  * [RDBMS](db_access/db_rdbms.md)
  * NoSql **TBD**
 
@@ -32,7 +35,7 @@ Assumption is we are building a system with microservice architecture, web UI, d
 
 ### &nbsp; [6. Clear error handling](error_handling/errors.md)
 
-### &nbsp; [7. Concurrency as first class citizen](concurrency/concurrency.md) (TODO: go routing size on stack)
+### &nbsp; [7. Concurrency as first class citizen](concurrency/concurrency.md)
 
 ### &nbsp; [8. Code debugging and profiling](debugging_profiling/debugging_profiling.md)
 
